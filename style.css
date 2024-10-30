@@ -1,0 +1,864 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+body {
+    background-color: #ddd;
+}
+.col-1 {
+    flex: 1;
+}
+.col-2 {
+    flex: 2;
+}
+.col-3 {
+    flex: 3;
+}
+.container {
+    width: 100%;
+}
+.parent-1 {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    margin-left: 50px;
+}
+.div {
+    border: 1px solid transparent;
+    background-color: orange;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+.home {
+    border: 1px solid transparent;
+    background-color: whitesmoke;
+    padding: 3px;
+    border-radius: 5px;
+}
+.menu {
+    /* margin-left: 15%; */
+    /* align-items: center; */
+    /* display: flex; */
+}
+.menu2 {
+    margin-left: 15%;
+    align-items: center;
+    display: flex;
+}
+.menu li {
+    display: inline-block;
+}
+.menu li a {
+    display: inline-block;
+    margin: 10px;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+}
+.buttons {
+    display: flex;
+    /* align-items: end; */
+    justify-content: center;
+}
+.btn-1  {
+    border: 1px solid transparent;
+    background-color: transparent;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    font-style: none;
+    padding: 15px;
+  
+}
+.btn-2  {
+    border: 1px solid transparent;
+    background-color: orange;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.btn-1 a {
+    color: black;
+}
+.btn-2 a {
+    color: black;
+}
+.sidebar {
+    display: none;
+}
+/* End of Header */
+
+.body-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.head-1 {
+    color: orange;
+    /* text-align: center; */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hspan-1 {
+    color: black;
+}
+.par-1 {
+    font-size: 30px;
+    padding: 10px;
+    font-weight: 500;
+}
+.par-2 {
+    font-size: 16px;
+}
+.buttons1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    margin-top: 30px;
+}
+.orange-btn {
+    border: 1px solid transparent;
+    color: white;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.btn-3 {
+    border: 1px solid #ddd;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.partnerships {
+    display: flex;
+    justify-content: center;
+    border: 1px solid transparent;
+    background-color: white;
+    margin: 50px;
+    border-radius: 10px;
+}
+.image {
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.parent-3 {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.btn-viewall {
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.head-2 {
+    margin-left: 55px;
+}
+.par-3 {
+    margin-left: 55px;
+    padding-top: 20px;
+}
+.end {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 40px;
+    background-color: white;
+    margin: 10px;
+}
+.head-n {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.head-n1 {
+    padding: 10px;
+}
+.par-n {
+    padding: 10px;
+}
+
+/* COURSES */
+.c-btn {
+    border: 1px solid;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.c-head {
+    padding-top: 15px;
+}
+.c-par {
+    padding-top: 10px;
+    padding-right: 30px;
+}
+.c-btn1 {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+}
+.image-gr {
+    width: 500px;
+    height: 260px;
+    border-radius: 10px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.around {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+} 
+.testm {
+    border-radius: 5px;
+}
+.htestm {
+    margin-left: 10px;
+}
+.testp {
+    margin-bottom: 20px;
+}
+.line {
+    border: 1px solid;
+}
+
+/* PRICING */
+.f-btn {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: rgb(238, 223, 226);
+    padding: 15px;
+    width: 80%;
+    margin: 20px;
+    margin-left: 50px;
+}
+.p-box {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    margin: 10px;
+}
+.p-head {
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+}
+.p-head1 {
+    text-align: center;
+    padding: 20px;
+}
+.box-1 {
+    border: 1px solid rgb(204, 192, 192);
+    padding: 7px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 80%;
+}
+.p-small {
+    font-size: 20px;
+}
+.p-btn2 {
+    border: 1px solid transparent;
+    background-color: orange;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+} 
+.box-2 {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    /* padding: 40px; */
+    background-color: white;
+    margin: 10px;
+}
+
+/* FAQ */
+.parent-4 {
+    display: flex;
+}
+.faq-question {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.faq-answer {
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.faq1 {
+    padding: 20px;
+    border: 1px solid transparent;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+.faqq {
+    /* margin: 30px; */
+    margin-top: 50px;
+}
+.faq-head {
+    padding: 20px;
+}
+.faq-par {
+    padding: 20px;
+}
+.faq-btn {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    margin: 20px;
+}
+
+
+
+/* FOOTER */
+.footer {
+    display: flex;
+}
+.center {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+.fo-par {
+    margin: 15px;
+    font-weight: 600;
+}
+li {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.f-icon {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #ddd;
+    padding: 10px;
+    margin: 5px;
+}
+.icons {
+    margin-top: 10px;
+}
+.email {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+
+
+
+/* COURSES STYLE */
+.box-co {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 40px;
+    background-color: white;
+    margin: 40px;
+}
+.padd {
+    padding: 50px;
+}
+.co-head {
+    font-size: 35px;
+    margin-left: 20px;
+}
+.co-par {
+    font-size: 17px;
+}
+.co-btn {
+    padding: 10px;
+    border: 1px solid transparent;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+.co-parent {
+    display: flex;
+    flex-wrap: wrap;
+}
+.first {
+    flex: 1 1 20%;
+}
+.first1 {
+    flex: 1 1 70%;
+}
+.first2 {
+    flex: 1 1 100%;
+}
+.flex-end {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.flex-end1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.co-image {
+    border-radius: 5px;
+    margin-left: 15px;
+}
+.co-image1 {
+    border-radius: 5px;
+}
+.border {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.border1 {
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+.bor-head {
+    padding: 20px;
+}
+.num1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+.num2 {
+    font-size: 16px;
+}
+
+
+
+
+
+/* UI/UX DESIGN */
+.ui-box {
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 20px;
+    margin-left: 10%;
+    margin-right: 10px;
+}
+.ui-box1 {
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 20px;
+    margin-right: 10%;
+    margin-left: 10px;
+}
+.ui-box2 {
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 20px;
+    margin-right: 14%;
+    margin-left: 10%;
+}
+.ui {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.ui-pink {
+    border: 1px solid pink;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.ui-btn {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px;
+    justify-content: flex-end;
+}
+.ui-btnp {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px;
+    justify-content: flex-end;
+    background-color: pink;
+}
+.ui01 {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 700;
+    font-size: 60px;
+}
+.ui-less {
+    padding-top: 5px;
+}
+.ui-head {
+    margin: 20px;
+}
+
+
+
+/* ABOUT US */
+.ab-par {
+    font-size: 14px;
+}
+.ab-box {
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 40px;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+.ab-box1 {
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 40px;
+    margin-right: 50px;
+    margin-left: 10px;
+}
+.ab-box2 {
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 40px;
+    margin-left: 50px;
+    margin-right: 10px;
+    padding-bottom: 55px;
+}
+.ab-box3 {
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 40px;
+    margin: 50px;
+}
+.ab-par1 {
+    margin-top: 10px;
+}
+.ab-par2 {
+    padding-top: 15px;
+}
+.ab-head {
+    color: orange;
+}
+.black {
+    color: black;
+}
+.ab-par2 {
+    font-size: 12px;
+}
+
+
+/* PRICING */
+.p-parent-3 {
+    display: flex;
+    align-items: center;
+    margin: 10%;
+    margin-top: 20px;
+}
+.p-parent-4 {
+    display: flex;
+    margin: 10%;
+}
+
+/* LOGIN */
+.lo-parent-3 {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.inp {
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #ddd;
+    width: 100%;
+    margin-top: 10px;
+}
+.lo-box {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 40px;
+    background-color: white;
+    margin: 10px;
+    width: 70%;
+    margin-left: 15%;
+}
+.lo-box1 {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 40px;
+    background-color: white;
+    margin: 10px;
+    margin-left: 50px;
+}
+.fp {
+    padding-top: 10px;
+}
+.btn-login {
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: orange;
+    width: 100%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.btn-login1 {
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #ddd;
+    width: 100%;
+    margin-top: 5px;
+    cursor: pointer;
+} 
+.lo-par {
+    padding: 10px;
+}
+.lo-par-ln {
+    color: black;
+    text-decoration: underline;
+}
+.lo-head {
+    margin-left: 55px;
+    font-size: 25px;
+}
+.lo-par-3 {
+    margin-left: 55px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+
+/* CONTACT */
+.c-inp {
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #ddd;
+    width: 90%;
+}
+.c-inp1 {
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #ddd;
+    width: 95%;
+    margin-bottom: 10px;
+}
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.c-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.c-box {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #ddd;
+    text-align: center;
+    margin: 20px;
+    padding-top: 50px;
+    width: 50%;
+}
+.messg {
+    background-color: #ddd;
+    border: 1px solid transparent;
+    width: 95%;
+} 
+textarea {
+    border-radius: 5px;
+    padding: 5px;
+}
+.form label {
+    font-style: bold;
+    margin-bottom: 5px;
+}
+.label {
+    margin-bottom: 5px;
+}
+.justify {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.con-box {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 40px;
+    background-color: white;
+    margin: 70px;
+}
+.button-mobile {
+    display: none;
+}
+.c-icon {
+    padding-bottom: 20px;
+}
+
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 640px) {
+    .none {
+        display: none;
+    }
+    .sidebar {
+        display: contents;
+        align-items: center;
+        margin: 20px;
+    }
+    .button-mobile {
+        display: block;
+        display: flex;
+        align-items: center;
+    }
+    .button-lap {
+        display: none;
+    }
+    .sidebar img {
+        margin-left: 20px;
+        /* display: flex; */
+    }
+    .logo {
+        width: 30%;
+    }
+    .for-mobile {
+        padding: 15px;
+    }
+    .column {
+        flex-direction: column;
+    }
+    .column-reverse {
+        flex-direction: column-reverse;
+    }
+    .end-m {
+        margin: 0;
+    }
+    .image-gr {
+        width: 100%;
+    }
+    .par-3 {
+        margin: 0;
+        padding-left: 20px;
+    }
+    .head-2 {
+        margin: 0;
+        padding-left: 20px;
+    }
+    .end {
+        display: block;
+    }
+    .parent-3 {
+        display: block;
+    }
+    .btn-viewall{
+        margin: 20px;
+    }
+    .par-1 {
+        text-align: center;
+    }
+    .box {
+        padding: 10px;
+    }
+    .flex-end {
+        display: block;
+        margin-top: 10px;
+    }
+    .flex-end1 {
+        margin-top: 10px;
+    }
+    .box-co {
+        margin: 10px;
+    }
+    .ui-box {
+        margin: 0;
+        margin: 10px;
+    }
+    .ui-box1 {
+        margin: 0;
+        margin-top: 20px;
+        margin: 10px;
+    }
+    .ui-box2 {
+        margin: 0;
+        margin-top: 20px;
+        margin: 10px;
+    }
+    .ab-box1 {
+        margin: 10px;
+    }
+    .ab-box2 {
+        margin: 10px;
+    }
+    .ab-box {
+        margin: 10px;
+    }
+    .ab-box3 {
+        padding: 10px;
+        margin: 10px;
+    } 
+    .p-parent-3 {
+        margin: 10px;
+    }
+    .p-parent-4 {
+        margin: 10px;
+    }
+    .lo-box {
+        margin-left: 0;
+        width: 100%;
+    }
+    .lo-box1 {
+        margin: 10px;
+    }
+    .lo-par-3 {
+        margin: 10px;
+    }
+    .lo-head {
+        margin: 10px;
+    }
+    .con-box {
+        margin: 10px;
+    }
+}
